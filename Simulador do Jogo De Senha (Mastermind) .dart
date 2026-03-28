@@ -6,7 +6,7 @@ void main() {
   final random = Random();
   List<int> senha = List.generate(4, (_) => random.nextInt(6) + 1);
 
-  print("Bem-vindo ao Jogo de Senha (Mastermind)!");
+  print("Jogo de Senha (Mastermind)!");
   print("Tente adivinhar a sequência de 4 números (entre 1 e 6).");
   print("Você tem até 10 tentativas.\n");
   
@@ -67,7 +67,7 @@ void main() {
 
     if (pretos == 4) {
 
-      print("Parabéns! Você descobriu a senha secreta!");
+      print("Parabéns! Você descobriu a senha!");
 
       venceu = true;
       break;
